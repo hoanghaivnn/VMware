@@ -30,9 +30,9 @@
 =============================
 <a name="gioithieu"></a>
 ## I.Giới thiệu
-`VMware Workstation` là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy PC. Người dùng có thể chạy các HĐH Windows, Linux, Netware hay Solaris x86 trên các máy ảo di động mà không cần phải khởi động lại hay phân vùng ổ cứng. VMware Workstation cung cấp khả năng hoạt động tuyệt vời và nhiều tính năng mới như tối ưu hóa bộ nhớ và khả năng quản lý các thiết lập nhiều lớp. Các tính năng thiết yếu như mạng ảo, chụp ảnh nhanh trực tiếp, kéo thả, chia sẻthư mục và hỗtrợPXE khiến VMware Workstation trởthành công cụmạnh mẽnhất và không thểthiếu cho các nhà doanh nghiệp phát triển tin họcvà các nhà quản trị hệ thống.
+`VMware Workstation` là một phần mềm ảo hóa desktop mạnh mẽ dành cho các nhà phát triển/kiểm tra phần mềm và các chuyên gia IT cần chạy nhiều HĐH một lúc trên một máy PC. Người dùng có thể chạy các HĐH Windows, Linux, Netware hay Solaris x86 trên các máy ảo di động mà không cần phải khởi động lại hay phân vùng ổ cứng. VMware Workstation cung cấp khả năng hoạt động tuyệt vời và nhiều tính năng mới như tối ưu hóa bộ nhớ và khả năng quản lý các thiết lập nhiều lớp. Các tính năng thiết yếu như mạng ảo, chụp ảnh nhanh trực tiếp, kéo thả, chia sẻ thư mục và hỗ trợ PXE khiến VMware Workstation trởthành công cụ mạnh mẽ nhất và không thể thiếu cho các nhà doanh nghiệp phát triển tin học và các nhà quản trị hệ thống.
 
-VMware Workstation họat động bằng cách cho phép nhiều HĐH và các ứng dụng của chúng chạy đồng thời trên một máy duy nhất. Các HĐH và ứng dụng này được tách ra vào trong các máy ảo. Những máy ảo này cùng tồn tại trên một phần cứng duy nhất. Các layer ảo của VMware sẽ kết nối các phần cứng vật lý với các máy ảo, do đó mỗi máy ảo sẽ có CPU, bộnhớ, các ổ đĩa, thiết bịnhập/xuất riêng
+VMware Workstation họat động bằng cách cho phép nhiều HĐH và các ứng dụng của chúng chạy đồng thời trên một máy duy nhất. Các HĐH và ứng dụng này được tách ra vào trong các máy ảo. Những máy ảo này cùng tồn tại trên một phần cứng duy nhất. Các layer ảo của VMware sẽ kết nối các phần cứng vật lý với các máy ảo, do đó mỗi máy ảo sẽ có CPU, bộnhớ, các ổ đĩa, thiết bị nhập/xuất riêng
 
 Có 3 loại VMware :
 -  *Vmware work station*
@@ -75,16 +75,22 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 <a name="ctwindows"></a>
 #### 3.1.1 Cài đặt chương trình trên Windows
 
-Sau khi đã tải bản VMware Workstation mới nhất tại [Trang chủ VMware](http://www.vmware.com/products/player/playerpro-evaluation.html), Chúng ta bắt đầu tiến hành cài đặt :
+- Bước 1 : Sau khi đã tải bản VMware Workstation mới nhất tại [Trang chủ VMware](http://www.vmware.com/products/player/playerpro-evaluation.html), Chúng ta bắt đầu tiến hành cài đặt :
+
 
 <img src=http://i.imgur.com/KJ9TK8g.png>
+
 - Bước 2 : Sau đó bạn chọn `I accept the terms in the License Agreement` sau đó bạn nhấn Next để tiếp tục.
+
 
 <img src=http://i.imgur.com/RuML1ut.png>
 - Bước 3 :Nhấn Next để tiếp tục.
 
+
 <img src=http://i.imgur.com/L07a0iD.png>
+
 - Bước 4 : Ở bước này bạn bỏ chọn 2 phần như trong hình sau đó nhấn Next để tiếp tục.
+
 
 <img src=http://i.imgur.com/Z2ZmPtI.png>
 
@@ -94,25 +100,31 @@ Sau khi đã tải bản VMware Workstation mới nhất tại [Trang chủ VMwa
 
 - Bước 5 : Ở bước này ta chọn nơi lưu `shortcut`. Có thể chọn như hình
 
+
 <img src=http://i.imgur.com/t5IaObT.png>
 
 - Bước 6 : Chọn `Install`
+
 
 <img src=http://i.imgur.com/HtF1SlH.png>
 
 - Bước 7 : Chờ cài đặt
 
+
 <img src=http://i.imgur.com/p2dFGhf.png>
 
 - Bước 8 :Quá trình cài đặt thành công nhấn `License` để kích hoạt phần mềm.
+
 
 <img src=http://i.imgur.com/2oSz1Uu.png>
 
 - Bước 9 : Điền `Key` và chọn `Enter` để hoàn thành
 
+
 <img src=http://i.imgur.com/ckRDdPF.png>
 
 - Bước 10 : Finish - Kết thúc cài đặt
+
 
 <img src=http://i.imgur.com/3pgLmZf.png>
 
