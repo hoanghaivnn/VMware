@@ -7,10 +7,10 @@
 - [2.2 Nhược điểm](#nhuocdiem)
 
 [III.Hướng dẫn cài đặt VMware](#caidat)
-- [3.1 Trên Windowns](#trenwindowns)
+- [3.1 Trên Windows](#trenwindows)
 <ul>
-<li>  [3.1.1 Cài đặt chương trình](#ctwindowns)</li>
-<li>  [3.1.2 Cài đặt hệ điều hành](#hdhwindowns)</li>
+<li>  [3.1.1 Cài đặt chương trình](#ctwindows)</li>
+<li>  [3.1.2 Cài đặt hệ điều hành](#hdhwindows)</li>
 </ul>
 - [3.2 Trên Linux](#trenlinux)
 <ul>
@@ -70,4 +70,4 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 ## III.Hướng dẫn cài đặt VMware
 
 <a name="trenwindowns"></a>
-### 3.1 Trên Windowns
+### 3.1 Trên Windows
