@@ -9,13 +9,13 @@
 [III.Hướng dẫn cài đặt VMware](#caidat)
 - [3.1 Trên Windows](#trenwindows)
 <ul>
-<li>  [3.1.1 Cài đặt chương trình](#ctwindows)</li>
-<li>  [3.1.2 Cài đặt hệ điều hành](#hdhwindows)</li>
+<li>  [3.1.1 Cài đặt chương trình trên Windows](#ctwindows)</li>
+<li>  [3.1.2 Cài đặt một hệ điều hành trên Windows](#hdhwindows)</li>
 </ul>
 - [3.2 Trên Linux](#trenlinux)
 <ul>
-<li>  [3.1.1 Cài đặt chương trình](#ctlinux)</li>
-<li>  [3.1.2 Cài đặt hệ điều hành](#hdhlinux)</li>
+<li>  [3.1.1 Cài đặt chương trình trên linux](#ctlinux)</li>
+<li>  [3.1.2 Cài đặt một hệ điều hành trên linux](#hdhlinux)</li>
 </ul>
 
 [IV. Cấu hình mở rộng của VMware](#cauhinhmorong)
@@ -71,3 +71,50 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 
 <a name="trenwindowns"></a>
 ### 3.1 Trên Windows
+
+<a name="ctwindows"></a>
+#### 3.1.1 Cài đặt chương trình trên Windows
+
+Sau khi đã tải bản VMware Workstation mới nhất tại [Trang chủ VMware](http://www.vmware.com/products/player/playerpro-evaluation.html), Chúng ta bắt đầu tiến hành cài đặt :
+
+<img src=http://imgur.com/KJ9TK8g>
+- Bước 2 : Sau đó bạn chọn `I accept the terms in the License Agreement` sau đó bạn nhấn Next để tiếp tục.
+
+<img src=http://imgur.com/RuML1ut>
+- Bước 3 :Nhấn Next để tiếp tục.
+
+<img src=http://imgur.com/L07a0iD>
+- Bước 4 : Ở bước này bạn bỏ chọn 2 phần như trong hình sau đó nhấn Next để tiếp tục.
+
+<img src=http://imgur.com/Z2ZmPtI>
+
+  Tích thứ nhất là kiểm tra cập nhật phiên bản khi máy tính khởi động.
+
+  Tích thứ hai là gửi dữ liệu cho nhà sản xuất
+
+- Bước 5 : Ở bước này ta chọn nơi lưu `shortcut`. Có thể chọn như hình
+
+<img src=http://imgur.com/t5IaObT>
+
+- Bước 6 : Chọn `Install`
+
+<img src=http://imgur.com/HtF1SlH>
+
+- Bước 7 : Chờ cài đặt
+
+<img src=http://imgur.com/p2dFGhf>
+
+- Bước 8 :Quá trình cài đặt thành công nhấn `License` để kích hoạt phần mềm.
+
+<img src=http://imgur.com/2oSz1Uu>
+
+- Bước 9 : Điền `Key` và chọn `Enter` để hoàn thành
+
+<img src=http://imgur.com/ckRDdPF>
+
+- Bước 10 : Finish - Kết thúc cài đặt
+
+<img src=http://imgur.com/3pgLmZf>
+
+<a name="hdhwindows"></a>
+#### 3.1.2 Cài đặt một hệ điều hành trên Windows
