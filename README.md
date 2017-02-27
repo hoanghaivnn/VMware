@@ -130,3 +130,101 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 
 <a name="hdhwindows"></a>
 #### 3.1.2 Cài đặt một hệ điều hành trên Windows
+
+Đầu tiên để cài một hệ điều hành thì chúng ta phải chuẩn bị một file iso của hệ điều hành muốn cài. Chúng ta có thể dowload từ trang chủ của các nhà cung cấp.
+Ở bài này mình sẽ giới thiệu một số bước cơ bản để cài hệ điều hành windows 7 trên VMware
+- Bước 1 : Khởi động phần mềm Vmware lên trên thanh công cụ ta chọn `File` tiếp đến ta chọn mục `New Vitrual Machine`.
+
+<img src=http://i.imgur.com/jwero9N.png>
+
+- Bước 2: Trong cửa sổ  `New Vitrual Machine Wizard` ta chọn mục `Custom (advanced)` sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/K7u35jF.png>
+
+- Bước 3: Trong mục `Hardware compatibility` ta chọn phiên bản mới nhất là Workstation 12.0 sau đó nhấn Next để tiếp tục.
+
+<img src=http://i.imgur.com/DfNfzj6.png>
+
+- Bước 4: Ở phần tiếp theo ta chọn mục `Installer disc image file (iso)` sau đó  nhấn `Browse` và chọn đến file iso windows 7 đã download về.
+
+<img src=http://i.imgur.com/2RilHK9.png>
+
+- Bước 5:  Ở phần tiếp theo điền như sau:
+
+<img src=http://i.imgur.com/gqGJGXX.png>
+
+Phần `Windows product key` : điền key bản quyền windows vào nếu có. Nếu không có thì các bạn để trống.
+
+Phần `Full name` : điền tên máy tính.
+
+Phần `Password`: điền password windows nếu cần không thì bỏ trống.
+
+Phần `Confirm`: điền lại password ở trên 1 lần nữa nếu ở trên không đặt password thì bỏ trống.
+
+
+
+Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
+
+- Bước 6 : Khi bạn nhấn `Next` mà ở phần trước các bạn không điền mục `Windows product key` thì hộp thoại thông báo sẽ hiện ra các bạn chọn Do not show this message again sau đó nhấn `Yes` nếu đã điền key các bạn có thể bỏ qua bước này.
+
+<img src=http://i.imgur.com/B1FzUp7.png>
+
+- Bước 7: Ở phần này ở mục `Vitrual machine name` các bạn điền tên máy ảo và ở mục `Location` các bạn chọn `Browse` để chọn nơi lưu trữ máy ảo sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/CghQE0W.png>
+
+- Bước 8: Trong phần `Frimware type` các bạn chọn `BIOS` sau đó nhấn Next để tiếp tục.
+
+<img src=http://i.imgur.com/nEupKw4.png>
+
+- Bước 9: Trong mục `Processors` phần `Number of processors` (số nhân của cpu) và `Number of cores per processor` (số lõi trên cpu). Các bạn nên chọn ít nhân nhiều lõi để máy ảo hoạt động tốt hơn. Sau đó các bạn nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/d9iCjYd.png>
+
+- Bước 10: Trong mục `Memory for Vitrual Machine` các bạn thiết lập RAM cho máy ảo trong phần `Memory for this vitrual machine` các bạn điền số RAM cho máy ảo mà bạn mong muốn hoặc dùng thanh kéo bên trái số  RAM được tính theo công thức `1GB = 1024 MB`. Sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/IA2LSbh.png>
+
+- Bước 11: Ở mục `Network connection` các bạn chọn một trong các phần:
+
+<img src=http://i.imgur.com/zoextMp.png>
+
+`Use bridged Network`
+<li> Card Bridge trên máy ảo chỉ có thể giao tiếp với card mạng thật trên máy thật.</li>
+<li> Card mạng Bridge này có thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
+
+
+`Use network address translation (NAT)`
+<li> Card NAT chỉ có thể giao tiếp với card mạng ảo VMnet8 trên máy thật.</li>
+<li> Card NAT chỉ có thể giao tiếp với các card NAT trên các máy ảo khác.</li>
+<li> Card NAT không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối. Tuy nhiên nhờ cơ chế NAT được tích hợp trong VMWare, máy tính ảo có thể gián tiếp liên lạc với mạng vật lý bên ngoài.</li>
+
+`Use host-only Networking`
+<li> Card Host-only chỉ có thể giao tiếp với card mạng ảo VMnet1 trên máy thật.</li>
+<li> Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.</li>
+<li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
+
+- Bước 12: Trong phần `I/O controller types` các bạn chọn mục `LSI Logic SAS (Recommended)` sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/pjeaLM5.png>
+
+- Bước 13 : Ở mục `Vitrual disk type` các bạn chọn `SCSI (Recommended)` sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/XbwFUIP.png>
+
+- Bước 14 : Trong mục `Disk` các bạn chọn `Create a new virtual` disk để tạo ổ đĩa máy ảo mới sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/zWhnqkH.png>
+
+
+- Bước 15: Ở phần này trong mục `Maximum disk size (GB)` bạn thiết lập dung lượng tối đa cho ổ cứng sau đó bạn chọn mục `Split virtual disk into multiple file` sau đó nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/V7RcLEt.png>
+
+- Bước 16: Ở phần tiếp theo bạn để nguyên mặc định nhấn `Next` để tiếp tục.
+
+<img src=http://i.imgur.com/m9nK4Gx.png>
+
+- Bước 17 : Ấn `Finish` và kết thúc quá trình tùy chọn cài đặt. Các bước tiếp theo tương tự như cài win trên máy thật.
+
+<img src=http://i.imgur.com/VhwcqhG.png>
