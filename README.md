@@ -171,7 +171,13 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 
 <img src=http://i.imgur.com/CghQE0W.png>
 
-- Bước 8: Trong phần `Frimware type` các bạn chọn `BIOS` sau đó nhấn Next để tiếp tục.
+- Bước 8: Trong phần `Frimware type` có 2 tùy chọn :
+
+  `BIOS` thường dùng cho các hệ điều hành windows hoặc linux.
+
+  `EFI` dành riêng cho hệ điều hành của Apple
+
+  Ở đây ta cài hệ điều hành windows nên chọn BIOS và ấn Next.
 
 <img src=http://i.imgur.com/nEupKw4.png>
 
@@ -202,11 +208,24 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
   <li> Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.</li>
 <li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
 
-- Bước 12: Trong phần `I/O controller types` các bạn chọn mục `LSI Logic SAS (Recommended)` sau đó nhấn `Next` để tiếp tục.
+- Bước 12: Trong phần `I/O controller types` có 3 tùy chọn
+
+  `BusLogic` và `LSI Logic` là trình điều khiển giao diện song song, chỉ hỗ trợ hệ điều hành 32 bít.
+
+  `Buslogic` không cung cấp khả năng tự sửa lỗi khi hệ điều hành không tương thích với trình điều khiển.
+
+  `LSI logic`cải thiện hiệu suất tốt nhất trong bộ SCSI.
+  `LSI Logic SAS` là trình điều khiển giao diện nối tiếp , hỗ trợ cả 32 bit và 64 bit cho tất cả các hệ điều hành hiện nay.
 
 <img src=http://i.imgur.com/pjeaLM5.png>
 
-- Bước 13 : Ở mục `Vitrual disk type` các bạn chọn `SCSI (Recommended)` sau đó nhấn `Next` để tiếp tục.
+- Bước 13 : Ở mục `Vitrual disk type` có 3 tùy chọn loại ổ đĩa
+
+  `IDE`: mạch điện tử tích hợp trong ổ đĩa
+
+  `SCSI`: thường được dùng trong các máy server ,có tốc độ nhanh hơn chuẩn IDE.
+
+  `SATA`: Sử dụng tín hiệu truyền nối tiếp,có một kết nối riêng biệt cho dữ liệu đi ra hay đi vào thiết bị.
 
 <img src=http://i.imgur.com/XbwFUIP.png>
 
