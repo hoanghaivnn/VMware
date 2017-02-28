@@ -21,9 +21,7 @@
 [IV. Cấu hình mở rộng của VMware](#cauhinhmorong)
 - [4.1 Lưu trạng thái máy ảo với Snapshot](#snapshot)
 - [4.2 Nhân bản máy ảo Clone](#clone)
-- [4.3 Sử dụng VMware player](#vmwareplayer)
-- [4.4 Sử dụng VMware tool](#vmwaretool)
-- [4.5 Sử dụng Virtual Netwok Edittor](#vne)
+- [4.3 Sử dụng VMware tool](#vmwaretool)
 
 [V. Kết luận](#ketluan)
 
@@ -315,3 +313,42 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 <img src=http://i.imgur.com/q0pRz6w.png>
 
 - Bước 7 : Quá trình Clone thành công .Ấn `Close` để kết thúc.
+
+<a name="vmwaretool"></a>
+### 4.3 Sử dụng VMware tool
+
+`VMware Tools`là bộ công cụ giúp tăng cường hiệu suất cho máy ảo của VMware. Hiểu một cách đơn giản, VMware Tools sẽ đem lại cho bạn các lợi ích sau đây :
+
+<li>Cho phép Shutdown một máy ngay từ giao diện quản lý chung bên ngoài.</li>
+
+<li>Tăng cường về xử lý đồ họa trên máy ảo.</li>
+
+<li>Cho phép copy/paste dữ liệu từ máy thật và máy ảo bằng kéo thả.</li>
+
+Ngoài ra nó còn có rất nhiều chức năng khác.
+
+Các bước cài đặt VMware tool như sau :
+  - Bước 1 : Click chuột phải vào máy cần cài VMware tool -> Chọn Install VMware tool. Hiển ra hộp thoại :
+
+  <img src=http://i.imgur.com/CtxrwPB.png>
+
+  - Bước 2 : Để mặc định Complete , ấn `Next`
+
+  <img src=http://i.imgur.com/XhrJBUH.png>
+
+  - Bước 3 : Chọn `Install`
+
+  <img src=http://i.imgur.com/v359t27.png>
+
+  - Bước 4 : Chờ tiến trình cài đặt kết thúc
+
+  <img src=http://i.imgur.com/BZcGihx.png>
+
+  - Bước 5 : Chọn `Finish` để kết thúc quá trình cài đặt
+
+  <img src=http://i.imgur.com/vOqyHfT.png>
+
+  Sau khi kết thúc, máy ảo sẽ phải khởi động lại để khởi động VMware tool.Sau khi khởi động xong, bạn có thể trải nghiệm các tiện ích mà VMware tool mang lại.
+
+<a name="ketluan"></a>
+## V.Kết luận  
