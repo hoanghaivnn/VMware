@@ -78,21 +78,21 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 - Bước 1 : Sau khi đã tải bản VMware Workstation mới nhất tại [Trang chủ VMware](http://www.vmware.com/products/player/playerpro-evaluation.html), Chúng ta bắt đầu tiến hành cài đặt :
 
 
-<img src=http://i.imgur.com/KJ9TK8g.png>
+    <img src=http://i.imgur.com/KJ9TK8g.png>
 
 - Bước 2 : Sau đó bạn chọn `I accept the terms in the License Agreement` sau đó bạn nhấn Next để tiếp tục.
 
 
-<img src=http://i.imgur.com/RuML1ut.png>
+    <img src=http://i.imgur.com/RuML1ut.png>
 - Bước 3 :Nhấn Next để tiếp tục.
 
 
-<img src=http://i.imgur.com/L07a0iD.png>
+    <img src=http://i.imgur.com/L07a0iD.png>
 
 - Bước 4 : Ở bước này bạn bỏ chọn 2 phần như trong hình sau đó nhấn Next để tiếp tục.
 
 
-<img src=http://i.imgur.com/Z2ZmPtI.png>
+    <img src=http://i.imgur.com/Z2ZmPtI.png>
 
   Tích thứ nhất là kiểm tra cập nhật phiên bản khi máy tính khởi động.
 
@@ -101,32 +101,32 @@ Bên cạnh những ưu điểm trên thì việc sử dụng máy ảo cũng c�
 - Bước 5 : Ở bước này ta chọn nơi lưu `shortcut`. Có thể chọn như hình
 
 
-<img src=http://i.imgur.com/t5IaObT.png>
+    <img src=http://i.imgur.com/t5IaObT.png>
 
 - Bước 6 : Chọn `Install`
 
 
-<img src=http://i.imgur.com/HtF1SlH.png>
+    <img src=http://i.imgur.com/HtF1SlH.png>
 
 - Bước 7 : Chờ cài đặt
 
 
-<img src=http://i.imgur.com/p2dFGhf.png>
+    <img src=http://i.imgur.com/p2dFGhf.png>
 
 - Bước 8 :Quá trình cài đặt thành công nhấn `License` để kích hoạt phần mềm.
 
 
-<img src=http://i.imgur.com/2oSz1Uu.png>
+    <img src=http://i.imgur.com/2oSz1Uu.png>
 
 - Bước 9 : Điền `Key` và chọn `Enter` để hoàn thành
 
 
-<img src=http://i.imgur.com/ckRDdPF.png>
+    <img src=http://i.imgur.com/ckRDdPF.png>
 
 - Bước 10 : Finish - Kết thúc cài đặt
 
 
-<img src=http://i.imgur.com/3pgLmZf.png>
+    <img src=http://i.imgur.com/3pgLmZf.png>
 
 <a name="hdhwindows"></a>
 #### 3.1.2 Cài đặt một hệ điều hành trên Windows
@@ -202,7 +202,7 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 `Use host-only Networking`
   <li> Card Host-only chỉ có thể giao tiếp với card mạng ảo VMnet1 trên máy thật.</li>
   <li> Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.</li>
-  <li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
+<li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
 
 - Bước 12: Trong phần `I/O controller types` các bạn chọn mục `LSI Logic SAS (Recommended)` sau đó nhấn `Next` để tiếp tục.
 
@@ -241,6 +241,18 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 
 - Bước 2 : Truy cập [Trang chủ VMware](#http://www.vmware.com/go/tryworkstation-linux-64) download bản cài đặt về
 - Bước 3 :Tiến hành cài đăt VMware từ `Terminal`
-Đầu tiên trước khi cài đặt chúng là cần cấp quyền executable cho file vừa tải
 
-  `haikma@root:~/Downloads$ chmod +x Vmware-Workstation-Full-12.1.1-3770994.x86_64.bundle`
+    Đầu tiên trước khi cài đặt chúng ta cần cấp quyền executable cho file vừa tải
+
+    `haikma@root:~/Downloads$ chmod +x Vmware-Workstation-Full-12.1.1-3770994.x86_64.bundle`
+
+    Sau khi đã cấp quyền, bắt đầu tiến hành cài đặt bằng quyền `root`
+
+    `haikma@root:~/Downloads$ sudo ./Vmware-Workstation-Full-12.1.1-3770994.x86_64.bundle`
+
+    Sau khi thực hiện, giao diện cài đặt VMware sẽ hiện ra, chúng ta tiến hành cài đặt như trên `Windows`.
+
+<a name="hdhlinux"></a>
+#### 3.2.2 Cài đặt một hệ điều hành trên Linux
+
+  Ở bước này, để cài đặt một hệ điều hành mới thì cũng cần có một file iso của hệ điều hành cần cài và tiến hành cài đặt như các bước trên hệ điều hành `Windows`
