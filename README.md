@@ -19,7 +19,7 @@
 </ul>
 
 [IV. Cấu hình mở rộng của VMware](#cauhinhmorong)
-- [4.1 Lưu trạng thái ảo Snapshot](#snapshot)
+- [4.1 Lưu trạng thái máy ảo với Snapshot](#snapshot)
 - [4.2 Nhân bản máy ảo Clone](#clone)
 - [4.3 Sử dụng VMware player](#vmwareplayer)
 - [4.4 Sử dụng VMware tool](#vmwaretool)
@@ -256,3 +256,62 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 #### 3.2.2 Cài đặt một hệ điều hành trên Linux
 
   Ở bước này, để cài đặt một hệ điều hành mới thì cũng cần có một file iso của hệ điều hành cần cài và tiến hành cài đặt như các bước trên hệ điều hành `Windows`
+
+<a name="cauhinhmorong"></a>  
+## IV. Cấu hình mở rộng của VMware
+
+<a name="snapshot"></a>
+### 4.1 Lưu trạng thái máy ảo với Snapshot
+
+  Snapshot là một công cụ rất hay cuả VMware, nó có ý nghĩa như sau :
+
+  <li>Giúp lưu lại tình trạng của máy tính tại một thời điểm bất kỳ</li>
+  <li>Hỗ trợ khôi phục máy tính về trạng thái Snapshot trước đó</li>
+  <li>Giúp công việc restore dễ dàng hơn mà không cần phải cài lại HĐH hay gỡ các service trước đó</li>
+
+  Sau đây mình sẽ hướng dẫn các bạn các bước cơ bản để Snapshot trạng thái của một máy ảo trong VMware:
+  - Bước 1 : Click chuột phải vào máy cần Snapshot -> Chọn Snapshot -> Take Snapshot
+  - Bước 2 : Lưu tên Snapshot và ghi chú thêm về trạng thái đó. Sau đó Click `Take Snapshot`
+
+  <img src="http://i.imgur.com/xmuayKc.jpg">
+
+  Vậy là các bạn đã có thể lưu được trạng thái máy ảo tại thời điểm Snapshoot.
+
+  Đến lúc cần quay lại trạng thái nào thì chỉ cần chọn Snapshot -> click vào Snapshot cần quay lại.Chờ một chút, vậy là máy ảo sẽ quay lại thời điểm thực hiện Snapshoot.
+
+<a name="clone"></a>
+### 4.2 Nhân bản máy ảo Clone
+
+Đúng như tên gọi của nó: Clone – bản sao. Khi sử dụng tính năng này, phần mềm sẽ tự tạo ra một bản sao giống hệt như bản gốc của bạn có trước đó, với cách làm này, chúng ta sẽ rất tiết kiệm thời gian.
+
+Để thực hiện tính năng này chúng ta làm như sau :
+
+- Bước 1 : Click máy muốn Clone -> Manage -> Clone
+
+<img src=http://i.imgur.com/y2LuR1B.png>
+
+- Bước 2 : Cửa số mới hiện lên, Ấn `Next`
+
+<img src=http://i.imgur.com/BklClEC.png>
+
+- Bước 3 : Chọn `The current state in the virtual machine` và ấn `Next`
+
+<img src=http://i.imgur.com/m6nFFmf.png>
+
+- Bước 4 : Ở cửa sổ tiếp theo có 2 option để bạn chọn:
+
+    `Creat a linked Clone` : Tùy chọn này cho phép tạo một bản sao y hệt như bản gốc, nhưng vẫn phải kết nối vào bản gốc, khi bản gốc không hoạt động thì bản sao cũng không hoạt động được.
+
+    `Creat a full Clone` : Tùy chọn này cũng cho phép tạo một bản sao y hệt như bản không, nhưng không cần kết nối vào bản gốc mà hoạt động độc lập. Thường thì các bạn nên chọn tùy chọn này
+
+<img src=http://i.imgur.com/TYLAE9X.png>
+
+- Bước 5 : Đổi tên máy ảo và chọn nơi lưu trữ cho bản Clone. Sau đó ấn `Finish`
+
+<img src=http://i.imgur.com/nhDLy9Q.png>
+
+- Bước 6 : Quá trình Clone bắt đầu, chờ vài phút hoặc hơn phụ thuộc vào cấu hình máy thật.
+
+<img src=http://i.imgur.com/q0pRz6w.png>
+
+- Bước 7 : Quá trình Clone thành công .Ấn `Close` để kết thúc.
