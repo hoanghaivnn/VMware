@@ -190,19 +190,19 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 <img src=http://i.imgur.com/zoextMp.png>
 
 `Use bridged Network`
-<li> Card Bridge trên máy ảo chỉ có thể giao tiếp với card mạng thật trên máy thật.</li>
-<li> Card mạng Bridge này có thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
+  <li> Card Bridge trên máy ảo chỉ có thể giao tiếp với card mạng thật trên máy thật.</li>
+  <li> Card mạng Bridge này có thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
 
 
 `Use network address translation (NAT)`
-<li> Card NAT chỉ có thể giao tiếp với card mạng ảo VMnet8 trên máy thật.</li>
-<li> Card NAT chỉ có thể giao tiếp với các card NAT trên các máy ảo khác.</li>
-<li> Card NAT không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối. Tuy nhiên nhờ cơ chế NAT được tích hợp trong VMWare, máy tính ảo có thể gián tiếp liên lạc với mạng vật lý bên ngoài.</li>
+  <li> Card NAT chỉ có thể giao tiếp với card mạng ảo VMnet8 trên máy thật.</li>
+  <li> Card NAT chỉ có thể giao tiếp với các card NAT trên các máy ảo khác.</li>
+  <li> Card NAT không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối. Tuy nhiên nhờ cơ chế NAT được tích hợp trong VMWare, máy tính ảo có thể gián tiếp liên lạc với mạng vật lý bên ngoài.</li>
 
 `Use host-only Networking`
-<li> Card Host-only chỉ có thể giao tiếp với card mạng ảo VMnet1 trên máy thật.</li>
-<li> Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.</li>
-<li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
+  <li> Card Host-only chỉ có thể giao tiếp với card mạng ảo VMnet1 trên máy thật.</li>
+  <li> Card Host-only chỉ có thể giao tiếp với các card Host-only trên các máy ảo khác.</li>
+  <li> Card Host-only không thể giao tiếp với mạng vật lý mà máy tính thật đang kết nối.</li>
 
 - Bước 12: Trong phần `I/O controller types` các bạn chọn mục `LSI Logic SAS (Recommended)` sau đó nhấn `Next` để tiếp tục.
 
@@ -228,3 +228,19 @@ Sau khi điền xong các bạn nhấn `Next` để tiếp tục.
 - Bước 17 : Ấn `Finish` và kết thúc quá trình tùy chọn cài đặt. Các bước tiếp theo tương tự như cài win trên máy thật.
 
 <img src=http://i.imgur.com/VhwcqhG.png>
+
+<a name="trenlinux"></a>
+### 3.2 Trên Linux
+
+<a name="ctlinux"></a>
+#### 3.2.1 Cài đăt chương trình trên linux
+
+- Bước 1 : Cài đặt acacs gói bổ trợ cho VMware. Vào `Terminal` thực hiện câu lệnh sau :
+
+  `haikma@root:~$ sudo apt-get install gcc build-essential -y`
+
+- Bước 2 : Truy cập [Trang chủ VMware](#http://www.vmware.com/go/tryworkstation-linux-64) download bản cài đặt về
+- Bước 3 :Tiến hành cài đăt VMware từ `Terminal`
+Đầu tiên trước khi cài đặt chúng là cần cấp quyền executable cho file vừa tải
+
+  `haikma@root:~/Downloads$ chmod +x Vmware-Workstation-Full-12.1.1-3770994.x86_64.bundle`
